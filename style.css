@@ -13,13 +13,13 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #ecf0f1;
+  background-color: #f5f6f6;
 }
 .content {
   background-color: white;
   border-radius: 15px;
   width: 960px;
-  height: 50%;
+  height: 70%;
   justify-content: space-between;
   align-items: center;
   position: relative;
@@ -27,7 +27,7 @@ body {
 .content::before {
   content: "";
   position: absolute;
-  background-color: #42678b;
+  background-color: #86a1a9;
   width: 40%;
   height: 100%;
   border-top-left-radius: 15px;
@@ -44,7 +44,7 @@ body {
   color: #fff;
 }
 .title-second {
-  color: #42678b;
+  color: #86a1a9;
 }
 .description {
   font-size: 14px;
@@ -77,17 +77,17 @@ body {
 }
 .btn-primary:hover {
   background-color: #fff;
-  color: #42678b;
+  color: #86a1a9;
 }
 .btn-second {
-  background-color: #42678b;
-  border: #42678b;
+  background-color: #86a1a9;
+  border: #86a1a9;
   transition: background-color 0.5s;
 }
 .btn-second:hover {
   background-color: #fff;
-  border: 1px solid #42678b;
-  color: #42678b;
+  border: 1px solid #86a1a9;
+  color: #86a1a9;
 }
 .first-content {
   display: flex;
@@ -173,7 +173,7 @@ input:-webkit-autofill {
   z-index: -1;
 }
 .password {
-  color: #42678b;
+  color: #86a1a9;
   font-size: 14px;
   margin: 15px 0px;
   text-align: center;
@@ -467,3 +467,4 @@ animation: fadeIn 1.3s;
     width: 100%;
   }
 }
+
